@@ -63,6 +63,7 @@ public class SubmitOrderTest extends BaseTest{
 		ProductCatalogue productCatalogue = landingPage.loginApplication("anshika@gmail.com", "Iamking@000");
 		OrderPage ordersPage = productCatalogue.goToOrdersPage();
 		Assert.assertTrue(ordersPage.VerifyOrderDisplay(productName));
+		//test commit
 		
 }
 	
